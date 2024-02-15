@@ -5,6 +5,10 @@ import Utils.Decorator;
 
 
 public class App {
+    /**
+     * Основной класс приложения.
+     * Здесь мы определяем голоса животных, записанных в БД
+     */
     public static void main(String[] args) {
         String a = "Dog";
         String AnimalVoice = Animals.animal(a);

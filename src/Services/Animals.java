@@ -1,6 +1,10 @@
 package Services;
 
 public class Animals {
+    /**
+     * Класс принимает название животного
+     * и возвращает функцию вызова его голоса.
+     */
     public static String animal(String a) {
         switch (a) {
             case "Cow":
