@@ -2,9 +2,9 @@ FROM openjdk:latest
 
 WORKDIR /usr/src/program/
 
-COPY . .
+COPY ./src .
 
-RUN javac -sourcepath ./src -d out src/Program/App.java
+RUN javac -sourcepath . -d out ./Program/App.java
 
 WORKDIR /usr/src/program/out
 
